@@ -1,5 +1,5 @@
 [masters]
-master-lenovoA ansible_connection=local ansible_user=anit
+anit-Lenovo-B50-70-A ansible_host=192.186.1.80 ansible_connection=local ansible_user=root
 
 [workers]
 worker-hp ansible_host=192.168.1.96 ansible_user=anit

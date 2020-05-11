@@ -33,8 +33,10 @@
      apt:
        name: kubeadm
        state: present
+     tags:
+        - inskdm
 
-- hosts: master
+- hosts: anit-Lenovo-B50-70-A
   become: yes
   tasks:
    - name: install kubectl
